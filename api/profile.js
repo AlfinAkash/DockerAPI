@@ -19,7 +19,14 @@ export default function handler(req, res) {
       Native: "Tirunelveli",
       Education: "Bachelor Of Engineering In Computer Science",
       Professional: "Software Developer",
-      Batch: "2024"
+      Batch: "2024",
+      Skills: {
+        "Programming Languages": ["Java", "JavaScript"],
+        "Frontend": ["HTML5", "CSS3", "JavaScript", "ReactJS"],
+        "Backend": ["Node.js", "Express.js", "Spring Boot"],
+        "Database": ["MySQL", "MongoDB"],
+        "Cloud": ["AWS"]
+      }
     });
   }
   
